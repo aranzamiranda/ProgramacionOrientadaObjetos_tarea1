@@ -10,10 +10,10 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Idioma {
-    String nombre;
-    String pais;
-    int numSignos;
-    int hablantes;
+    private String nombre;
+    private String pais;
+    private int numSignos;
+    private int hablantes;
     
     public Idioma(){
     nombre = "Desconocido";
@@ -26,5 +26,29 @@ public class Idioma {
         this.pais = country;
         this.numSignos = nS;
         this.hablantes = h;
+    }
+     public String getNombre(){
+        return this.nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+     public String getPais(){
+        return this.pais;
+    }
+    public void setPais(String pais){
+        this.pais = pais;
+    }
+     public int getNumSignos(){
+        return this.numSignos;
+    }
+    public void setNumSignos(int numSignos){
+        this.numSignos = numSignos;
+    }
+     public int getHablantes(){
+        return this.hablantes;
+    }
+    public void setHablantes(int hablantes){
+        this.hablantes = hablantes;
     }
 }

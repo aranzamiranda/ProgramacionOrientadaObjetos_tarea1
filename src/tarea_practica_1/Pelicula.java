@@ -10,12 +10,12 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Pelicula {
-    String nombre; 
-    int ano;
-    String director;
-    int minutos; 
-    double calificacion;
-    String genero;
+    private String nombre; 
+    private int ano;
+    private String director;
+    private int minutos; 
+    private double calificacion;
+    private String genero;
     
     public Pelicula(){
        nombre = "Desconocido";
@@ -37,5 +37,41 @@ public class Pelicula {
     
     public void reproducirse(){
         System.out.println("Reproduciendose");
+    }
+     public String getNombre(){
+        return this.nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+     public int getAno(){
+        return this.ano;
+    }
+    public void setAno(int ano){
+        this.ano = ano;
+    }
+     public String getDirector(){
+        return this.director;
+    }
+    public void setDirector(String director){
+        this.director = director;
+    }
+     public int getMinutos(){
+        return this.minutos;
+    }
+    public void setMinutos(int minutos){
+        this.minutos = minutos;
+    }
+     public double getCalificacion(){
+        return this.calificacion;
+    }
+    public void setCalificacion(double calificacion){
+        this.calificacion = calificacion;
+    }
+     public String getGenero(){
+        return this.genero;
+    }
+    public void setGenero(String genero){
+        this.genero = genero;
     }
 }

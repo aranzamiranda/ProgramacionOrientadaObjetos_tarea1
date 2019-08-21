@@ -10,13 +10,13 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Celular {
-    String marca; 
-    String camara; 
-    String procesador; 
-    double precio; 
-    double tamano;
-    double peso;
-    String color;
+    private String marca; 
+    private String camara; 
+    private String procesador; 
+    private double precio; 
+    private double tamano;
+    private double peso;
+    private String color;
     
     public Celular(){
         marca = "Desconocido";
@@ -35,5 +35,47 @@ public class Celular {
         this.tamano = tam;
         this.peso = pes;
         this.color = colo;
+    }
+     public String getMarca(){
+        return this.marca;
+    }
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+     public String getCamara(){
+        return this.camara;
+    }
+    public void setCamara(String camara){
+        this.camara = camara;
+    }
+     public String getProcesador(){
+        return this.procesador;
+    }
+    public void setProcesador(String procesador){
+        this.procesador = procesador;
+    }
+     public double getPrecio(){
+        return this.precio;
+    }
+    public void setPrecio(double precio){
+        this.precio = precio;
+    }
+     public double getTamano(){
+        return this.tamano;
+    }
+    public void setTamano(double tamano){
+        this.tamano = tamano;
+    }
+     public double getPeso(){
+        return this.peso;
+    }
+    public void setPeso(double peso){
+        this.peso = peso;
+    }
+     public String getColor(){
+        return this.color;
+    }
+    public void setColor(String color){
+        this.color = color;
     }
 }

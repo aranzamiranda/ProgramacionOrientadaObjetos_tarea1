@@ -10,11 +10,11 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Computadora {
-    String marca; 
-    String tipoProcesador;
-    int memoria;
-    String color;
-    double tamPantalla;
+    private String marca; 
+    private String tipoProcesador;
+    private int memoria;
+    private String color;
+    private double tamPantalla;
     
     public Computadora(){
         marca = "Desconocido";
@@ -29,5 +29,35 @@ public class Computadora {
         this.memoria = mem;
         this.color = c;
         this.tamPantalla = tPa;
+    }
+      public String getMarca(){
+        return this.marca;
+    }
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+     public String getTipoProcesador(){
+        return this.tipoProcesador;
+    }
+    public void setTipoProcesador(String tipoProcesador){
+        this.tipoProcesador = tipoProcesador;
+    }
+     public int getMemoria(){
+        return this.memoria;
+    }
+    public void setMemoria(int memoria){
+        this.memoria = memoria;
+    }
+     public String getColor(){
+        return this.color;
+    }
+    public void setColor(String color){
+        this.color = color;
+    }
+     public double getTamPantalla(){
+        return this.tamPantalla;
+    }
+    public void setTamPantalla(double tamPantalla){
+        this.tamPantalla = tamPantalla;
     }
 }

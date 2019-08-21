@@ -160,20 +160,82 @@ public class Tarea_Practica_1 {
      conejito1.setEstatura(0.45);
      System.out.println(conejito1.getEstatura());
      Puerta puert1 = new Puerta("Arcon", "Blanca", "Caoba", 2.0, 36);
-     
+     puert1.setMarca("Priston");
+     System.out.println(puert1.getMarca());
+     puert1.setColor("Madera");
+     System.out.println(puert1.getColor());
+     puert1.setTipoMadera("Caoba");
+     System.out.println(puert1.getTipoMadera());
+     puert1.setAltura(2.0);
+     System.out.println(puert1.getAltura());
+     puert1.setPeso(34);
+     System.out.println(puert1.getPeso());
      
      Celular cel1 = new Celular("Iphone 8", "dual" , "Apple A12", 23000, 10, 405, "Plata");
+     cel1.setMarca("LG");
+     System.out.println(cel1.getMarca());
+     cel1.setCamara("Dual");
+     System.out.println(cel1.getCamara());
+     cel1.setProcesador("hhdfhad");
+     System.out.println(cel1.getProcesador());
+     cel1.setPrecio(3452);
+     System.out.println(cel1.getPrecio());
+     cel1.setTamano(10);
+     System.out.println(cel1.getTamano());
+     cel1.setPeso(0.678);
+     System.out.println(cel1.getPeso());
+     cel1.setColor("Negro");
+     System.out.println(cel1.getColor());
      
      Libreta lib1 = new Libreta("Norma", 56.6, 100, "Mezclilla", "Doble linea");
-     
+     lib1.setMarca("Scribe");
+     System.out.println(lib1.getMarca());
+     lib1.setPaginas(300);
+     System.out.println(lib1.getPaginas());
+     lib1.setGramaje(67);
+     System.out.println(lib1.getGramaje());
+     lib1.setColor("verde");
+     System.out.println(lib1.getColor());
+     lib1.setTipo("cuadro chico");
+     System.out.println(lib1.getTipo());
      Idioma idioma1 = new Idioma("Español", "Mas de 20 paises", 27, 572000000);
-     
+     idioma1.setNombre("Ingles");
+     System.out.println(idioma1.getNombre());
+     idioma1.setPais("Más de 30 paises");
+     System.out.println(idioma1.getPais());
+     idioma1.setNumSignos(26);
+     System.out.println(idioma1.getNumSignos());
+     idioma1.setHablantes(123454663);
+     System.out.println(idioma1.getHablantes());
      Materias materia1 = new Materias("Biologia", "Seres vivos", 90, "Irma Guadalupe Sanchez");
+     materia1.setNombre("Matematicas discretas");
+     System.out.println(materia1.getNombre());
+     materia1.setCampoDeConocimiento("Teoria de ocnjuntos");
+     System.out.println(materia1.getCampoDeConocimiento());
+     materia1.setCalificacion(7);
+     System.out.println(materia1.getCalificacion());
+     materia1.setMaestro("Pancho");
+     System.out.println(materia1.getMaestro());
      
      Deporte dep1 = new Deporte("Futbol", "Liga nacional mexicana", 11, "Marcos Cruz");
+     dep1.setName("Basquetbol");
+     System.out.println(dep1.getName());
+     dep1.setLiga("Liga de Basquetbol Juvenil");
+     System.out.println(dep1.getLiga());
+     dep1.setJugadores(12);
+     System.out.println(dep1.getJugadores());
+     dep1.setEntrenador("Lina Rodriguez");
+     System.out.println(dep1.getEntrenador());
      
      Pescado pesc1 = new Pescado("Pez globo", "Agua salada", 1, 3);
-     
+     pesc1.setNombre("Tiburon");
+     System.out.println(pesc1.getNombre());
+     pesc1.setTipo("Agua salada");
+     System.out.println(pesc1.getTipo());
+     pesc1.setAnos(2);
+     System.out.println(pesc1.getAnos());
+     pesc1.setPeso(8);
+     System.out.println(pesc1.getPeso());
      
      
         System.out.println();

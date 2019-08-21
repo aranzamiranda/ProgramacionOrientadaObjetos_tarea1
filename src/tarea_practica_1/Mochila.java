@@ -10,11 +10,11 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Mochila {
-    String marca; 
-    double precio;
-    String color; 
-    double peso; 
-    String tipo;
+    private String marca; 
+    private double precio;
+    private String color; 
+    private double peso; 
+    private String tipo;
     
     public Mochila(){
         marca = "Desconocido";
@@ -29,5 +29,36 @@ public class Mochila {
         color = "Desconocido";
         peso = 0;
         tipo = "Desconocido";
+    }
+      
+       public String getMarca(){
+        return this.marca;
+    }
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+     public double getPrecio(){
+        return this.precio;
+    }
+    public void setPrecio(double precio){
+        this.precio = precio;
+    }
+     public String getColor(){
+        return this.color;
+    }
+    public void setColor(String color){
+        this.color = color;
+    }
+     public double getPeso(){
+        return this.peso;
+    }
+    public void setPeso(double peso){
+        this.peso = peso;
+    }
+     public String getTipo(){
+        return this.tipo;
+    }
+    public void setTipo(String tipo){
+        this.tipo = tipo;
     }
 }

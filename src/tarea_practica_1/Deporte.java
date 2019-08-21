@@ -10,10 +10,10 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Deporte {
-    String name;
-    String liga; 
-    int jugadores;
-    String entrenador;
+    private String name;
+    private String liga; 
+    private int jugadores;
+    private String entrenador;
     
     public Deporte(){
         name = "Desconocido";
@@ -26,5 +26,29 @@ public class Deporte {
         this.liga = l; 
         this.jugadores = jug; 
         this.entrenador = entr;
+    }
+     public String getName(){
+        return this.name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+     public String getLiga(){
+        return this.liga;
+    }
+    public void setLiga(String liga){
+        this.liga = liga;
+    }
+     public int getJugadores(){
+        return this.jugadores;
+    }
+    public void setJugadores(int jugadores){
+        this.jugadores = jugadores;
+    }
+     public String getEntrenador(){
+        return this.entrenador;
+    }
+    public void setEntrenador(String entrenador){
+        this.entrenador = entrenador;
     }
 }

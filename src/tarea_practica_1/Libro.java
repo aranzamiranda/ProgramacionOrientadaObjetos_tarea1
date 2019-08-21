@@ -10,11 +10,11 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Libro {
-    String nombre;
-    int numPag;
-    String autor;
-    String genero; 
-    String editorial;
+    private String nombre;
+    private int numPag;
+    private String autor;
+    private String genero; 
+    private String editorial;
     
     public Libro(){
         nombre = "Desconocido";
@@ -29,5 +29,35 @@ public class Libro {
         this.autor = au;
         this.genero = g;
         this.editorial = edi;
+    }
+      public String getNombre(){
+        return this.nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+     public int getNumPag(){
+        return this.numPag;
+    }
+    public void setNumPag(int numPag){
+        this.numPag = numPag;
+    }
+     public String getAutor(){
+        return this.autor;
+    }
+    public void setAutor(String autor){
+        this.autor = autor;
+    }
+     public String getGenero(){
+        return this.genero;
+    }
+    public void setGenero(String genero){
+        this.genero = genero;
+    }
+     public String getEditorial(){
+        return this.editorial;
+    }
+    public void setEditorial(String editorial){
+        this.editorial = editorial;
     }
 }

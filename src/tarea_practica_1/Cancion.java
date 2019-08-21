@@ -10,10 +10,10 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Cancion {
-    String nombre;
-    String genero;
-    double duracion;
-    String autor;
+    private String nombre;
+    private String genero;
+    private double duracion;
+    private String autor;
     
     public Cancion(){
         nombre = "Desconocido";
@@ -26,5 +26,29 @@ public class Cancion {
         this.genero = generoo;
         this.duracion = dura;
         this.autor = autoor;
+    }
+       public String getNombre(){
+        return this.nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+     public String getGenero(){
+        return this.genero;
+    }
+    public void setGenero(String genero){
+        this.genero = genero;
+    }
+     public double getDuracion(){
+        return this.duracion;
+    }
+    public void setDuracion(double duracion){
+        this.duracion = duracion;
+    }
+     public String getAutor(){
+        return this.autor;
+    }
+    public void setAutor(String autor){
+        this.autor = autor;
     }
 }

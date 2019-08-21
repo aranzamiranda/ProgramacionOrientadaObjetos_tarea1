@@ -10,11 +10,11 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Camara {
-    String marca; 
-    double megapixeles; 
-    String color; 
-    double memoria; 
-    String tipoLente;
+    private String marca; 
+    private double megapixeles; 
+    private String color; 
+    private double memoria; 
+    private String tipoLente;
     
     public Camara(){
         marca = "Desconocido";
@@ -29,5 +29,35 @@ public class Camara {
         this.color = co;
         this.memoria = me;
         this.tipoLente = tL;
+    }
+     public String getMarca(){
+        return this.marca;
+    }
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+     public double getMegapixeles(){
+        return this.megapixeles;
+    }
+    public void setMegapixeles(double megapixeles){
+        this.megapixeles = megapixeles;
+    }
+     public String getColor(){
+        return this.color;
+    }
+    public void setColor(String color){
+        this.color = color;
+    }
+     public double getMemoria(){
+        return this.memoria;
+    }
+    public void setMemoria(double memoria){
+        this.memoria = memoria;
+    }
+     public String getTipoLente(){
+        return this.tipoLente;
+    }
+    public void setTipoLente(String tipoLente){
+        this.tipoLente = tipoLente;
     }
 }

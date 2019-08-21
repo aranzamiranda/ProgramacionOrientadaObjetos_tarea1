@@ -10,10 +10,10 @@ package tarea_practica_1;
  * @author chiky
  */
 public class InstrumentoMusical {
-    String nombre;
-    String color;
-    int numInstrumentos;
-    double precio;
+    private String nombre;
+    private String color;
+    private int numInstrumentos;
+    private double precio;
     
     public InstrumentoMusical(){
         nombre = "Desconocido";
@@ -26,6 +26,30 @@ public class InstrumentoMusical {
         this.color = c;
         this.numInstrumentos = nI;
         this.precio = p;
+    }
+      public String getNombre(){
+        return this.nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+     public String getColor(){
+        return this.color;
+    }
+    public void setColor(String color){
+        this.color = color;
+    }
+     public int getNumInstrumentos(){
+        return this.numInstrumentos;
+    }
+    public void setNumInstrumentos(int numInstrumentos){
+        this.numInstrumentos = numInstrumentos;
+    }
+     public double getPrecio(){
+        return this.precio;
+    }
+    public void setPrecio(double precio){
+        this.precio = precio;
     }
     
 }

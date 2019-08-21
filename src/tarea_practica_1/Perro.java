@@ -10,11 +10,11 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Perro {
-    String raza;
-    String tamano;
-    int anos;
-    String color;
-    String nombre;
+    private String raza;
+    private String tamano;
+    private int anos;
+    private String color;
+    private String nombre;
     
     public Perro(){
         raza = "Desconocido";
@@ -34,5 +34,35 @@ public class Perro {
     public void comer(){
     System.out.println("Estoy comiendo...");
 }
+     public String getRaza(){
+        return this.raza;
+    }
+    public void setRaza(String raza){
+        this.raza = raza;
+    }
+     public String getTamano(){
+        return this.tamano;
+    }
+    public void setTamano(String tamano){
+        this.tamano = tamano;
+    }
+     public int getAnos(){
+        return this.anos;
+    }
+    public void setAnos(int anos){
+        this.anos = anos;
+    }
+     public String getColor(){
+        return this.color;
+    }
+    public void setColor(String color){
+        this.color = color;
+    }
+     public String getNombre(){
+        return this.nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
     
 }

@@ -10,10 +10,10 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Pescado {
-    String nombre;
-    String tipo;
-    int anos; 
-    int peso;
+    private String nombre;
+    private String tipo;
+    private int anos; 
+    private int peso;
     
     public Pescado(){
         nombre = "Desconocido";
@@ -26,5 +26,29 @@ public class Pescado {
         this.tipo = type;
         this.anos = anios; 
         this.peso = p;
+    }
+     public String getNombre(){
+        return this.nombre;
+    }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+     public String getTipo(){
+        return this.tipo;
+    }
+    public void setTipo(String tipo){
+        this.tipo = tipo;
+    }
+     public int getAnos(){
+        return this.anos;
+    }
+    public void setAnos(int anos){
+        this.anos = anos;
+    }
+     public int getPeso(){
+        return this.peso;
+    }
+    public void setPeso(int peso){
+        this.peso = peso;
     }
 }

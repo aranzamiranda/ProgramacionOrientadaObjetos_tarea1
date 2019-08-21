@@ -10,10 +10,10 @@ package tarea_practica_1;
  * @author chiky
  */
 public class Television {
-    String marca; 
-    double pulgadasPantalla; 
-    String tipo; 
-    String color;
+    private String marca; 
+    private double pulgadasPantalla; 
+    private String tipo; 
+    private String color;
     
     public Television(){
         marca = "Desconocido";
@@ -26,5 +26,29 @@ public class Television {
         this.pulgadasPantalla = pP;
         this.tipo = t;
         this.color = clr;
+    }
+    public String getMarca(){
+        return this.marca;
+    }
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+     public double getPulagadasPantalla(){
+        return this.pulgadasPantalla;
+    }
+    public void setPulgadasPantalla(double pulgadasPantallas){
+        this.pulgadasPantalla = pulgadasPantallas;
+    }
+     public String getTipo(){
+        return this.tipo;
+    }
+    public void setTipo(String tipo){
+        this.tipo = tipo;
+    }
+     public String getColor(){
+        return this.color;
+    }
+    public void setColor(String color){
+        this.color = color;
     }
 }
